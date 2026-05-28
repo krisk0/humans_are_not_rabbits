@@ -1,0 +1,11 @@
+﻿shorter_childbirth_modifier = {
+	icon = health_negative
+	stacking = yes
+	fertility = -0.4
+}
+
+loonger_childbirth_modifier = {
+	icon = fertility_negative
+	stacking = yes
+	fertility = -0.2
+}

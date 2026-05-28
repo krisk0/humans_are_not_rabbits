@@ -1,0 +1,12 @@
+﻿on_birth_child = {
+	on_actions = { hanr_birth_effects = yes }
+}
+
+hanr_birth_effects = {
+	effect = {
+		scope:mother = {
+			add_character_modifier = { modifier = shorter_childbirth_modifier months = 5 }
+			add_character_modifier = { modifier = loonger_childbirth_modifier years = 1 }
+		}
+	}
+}

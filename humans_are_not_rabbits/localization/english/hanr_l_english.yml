@@ -1,0 +1,7 @@
+﻿l_english:
+
+ shorter_childbirth_modifier: "Recently gave birth"
+ shorter_childbirth_modifier_desc: "She recently gave birth and probably would not get pregnant soon"
+
+ loonger_childbirth_modifier: "Recovers after childbirth"
+ loonger_childbirth_modifier_desc: "She is recovering after childbirth, her fertility is temporarily decreased"
