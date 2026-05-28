@@ -1,4 +1,4 @@
-# Humams are not Rabbits
+# Humans are not Rabbits
 
 Decrease bithrate, so most couples cannot have one child in one year.
 
