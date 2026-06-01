@@ -30,12 +30,12 @@ Crusader Kings 3 game engine keeps hidden modifier that applies to a married wom
 
 I decided to turn off the married woman debuf, so event fertility equals marriage fertility: `NChildbirth::MOTHER_FERTILITY_REDUCTION_PER_PREVIOUS_CHILD=0.0`.
 
-With this and other tweaks from [ek_fixes_and_tweaks](https://github.com/krisk0/ek_fixes_and_tweaks), married landowners have at least one baby per 16 month on average, if both spouses have no debuffs to fertility. The childbirth rate is even bigger if they have a personal/religious/cultural bonus to fertility.
+With this and other tweaks from [ek_fixes_and_tweaks](https://github.com/krisk0/ek_fixes_and_tweaks), married landowners with average fertility (0.5 for both spouses) have one baby per 16.5 month on average, if both spouses have no debuffs to fertility. The childbirth rate is even bigger if they have a personal/religious/cultural/dynastical bonus.
 
 Consider example. A man with 60% fertility is married to a woman with 47% fertility, one of them is landowner,  [ek_fixes_and_tweaks](https://github.com/krisk0/ek_fixes_and_tweaks) installed. 
 3 month after first baby was born, second baby will be conceived with percent chance `(0.6 + 0.47) / 2 * 50 = 26.7`. Which means second baby will be conceived in less than 4 month on average, so childbirth rate is slightly bigger than 1 baby per 16 month. Suppose mother and father are married at age 16. Then by age of 30 they will make more than 10 chilren on average. So they have a good chance to have twenty or more children in this marriage.
 
-With this mod installed, mother will have negative fertility in 5 month after childbirth, because first malus lasts 5 month and decreases ferility by 40%, and second malus lasts one year and further decreases fertility by 20%. So 12 and 13 month after conceiving first baby, pregnancy is impossible. 14 month after conceiving first baby, mother's fertility will be 27%, which makes impregnation chance `(0.6 + 0.27) / 2 * 50 = 21.8`. So second baby will be conceived in approximately `14 + 5 = 19` months after first.
+With this mod installed, mother will have negative fertility in 5 month after childbirth, because first malus lasts 5 month and decreases ferility by 40%, and second malus lasts one year and further decreases fertility by 20%. So 12 and 13 month after conceiving first baby, pregnancy is impossible. 14 month after conceiving first baby, mother's fertility will be 27%, which makes impregnation chance `(0.6 + 0.27) / 2 * 50 = 21.8`. So second baby will be conceived in approximately `14 + 5 = 19` months.
 
 Thus, for this couple bithrate dropped from 1 baby per 16 month to 1 baby per 19 month after installation of the mod. The two numbers 1/16 and 1/19 are approximate. I want to give a general idea, not calculate the exact birthrate.
 
